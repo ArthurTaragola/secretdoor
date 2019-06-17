@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Secretdoor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" media="screen" href="style/screen.css" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"
+  integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+  <script defer src="./script/dataHandler.js"></script>
+  <script defer src="./script/app.js"></script>
+</head>
+
+<body>
+  <header class="c-stat">
+    <div class="o-headercolor">
+      <div class="c-stat__title">
+        Secretdoor
+      </div>
+    </div>
+  </header>
+
+  <base>
+  <div class="o-text">
+    <h2>
+      History
+    </h2>
+    <info class="o-info">
+      information about who opened the door on what time
+    </info>
+  </div>
+  <a href="history.html">
+  <box class="o-box">
+    <div class="category">
+      <svg class="o-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 20">
+        <path id="ic_today_24px" d="M19,3H18V1H16V3H8V1H6V3H5A1.991,1.991,0,0,0,3.01,5L3,19a2,2,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3Zm0,16H5V8H19ZM7,10h5v5H7Z" transform="translate(-3 -1)" />
+      </svg>
+    </div>
+  </box>
+</a>
+  </base>
+
+  <base>
+  <div class="o-text">
+    <h2>
+      Status
+    </h2>
+    <info class="o-info">
+      Check the current status of the door. See who last closed the door
+    </info>
+  </div>
+  <a href="status.html">
+  <box class="o-box">
+    <div class="category">
+      <svg class="o-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.288 47.628">
+        <path id="ic_lock_outline_24px"
+          d="M22.144,37.288a4.536,4.536,0,1,0-4.536-4.536A4.549,4.549,0,0,0,22.144,37.288ZM35.752,16.876H33.484V12.34a11.34,11.34,0,1,0-22.68,0v4.536H8.536A4.549,4.549,0,0,0,4,21.412v22.68a4.549,4.549,0,0,0,4.536,4.536H35.752a4.549,4.549,0,0,0,4.536-4.536V21.412A4.549,4.549,0,0,0,35.752,16.876ZM15.113,12.34a7.031,7.031,0,0,1,14.062,0v4.536H15.113ZM35.752,44.092H8.536V21.412H35.752Z"
+          transform="translate(-4 -1)" />
+      </svg>
+    </div>
+  </box>
+</a>
+  </base>
+
+  <base>
+  <div class="o-text">
+    <h2>
+      Chart
+    </h2>
+    <info class="o-info">
+      See details about the usage of the door and when it's openend most
+    </info>
+  </div>
+  <a href="chart.html">
+  <box class="o-box">
+    <div class="category">
+      <svg class="o-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.907 36.907">
+        <path id="ic_assessment_24px" d="M35.806,3H7.1A4.113,4.113,0,0,0,3,7.1V35.806a4.113,4.113,0,0,0,4.1,4.1H35.806a4.113,4.113,0,0,0,4.1-4.1V7.1A4.113,4.113,0,0,0,35.806,3ZM15.3,31.705H11.2V17.353h4.1Zm8.2,0H19.4V11.2h4.1Zm8.2,0H27.6V23.5h4.1Z"
+          transform="translate(-3 -3)" />
+      </svg>
+    </div>
+  </box>
+  </base>
+
+</body>
+
+</html>
