@@ -11,8 +11,11 @@
   integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
   <script defer src="./script/dataHandler.js"></script>
   <script defer src="./script/app.js"></script>
-</head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title> Chart </title>
 
+</head>
 <body>
   <header class="c-stat">
     <div class="o-headercolor">
@@ -21,4 +24,10 @@
       </div>
     </div>
   </header>
+  <div class="o-title">
+    Sensortriggering
+  </div>
+  <div class="o-grafiek js-grafiek">
+    <canvas id="myChart"></canvas>
+</div>
 </body>
